@@ -41,6 +41,7 @@
 		61219A8721C14E2F007BA795 /* UIView+Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61219A8221C14E2F007BA795 /* UIView+Animation.swift */; };
 		61219A8D21C152AB007BA795 /* UIViewController+Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61219A8A21C152AB007BA795 /* UIViewController+Slide.swift */; };
 		61219A8E21C152AB007BA795 /* UIViewController+UIBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61219A8C21C152AB007BA795 /* UIViewController+UIBarButtonItem.swift */; };
+		61219A9121C15455007BA795 /* Data+APNSToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61219A9021C15455007BA795 /* Data+APNSToken.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,6 +81,7 @@
 		61219A8221C14E2F007BA795 /* UIView+Animation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Animation.swift"; sourceTree = "<group>"; };
 		61219A8A21C152AB007BA795 /* UIViewController+Slide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Slide.swift"; sourceTree = "<group>"; };
 		61219A8C21C152AB007BA795 /* UIViewController+UIBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+UIBarButtonItem.swift"; sourceTree = "<group>"; };
+		61219A9021C15455007BA795 /* Data+APNSToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+APNSToken.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +137,7 @@
 		61219A3121C147BF007BA795 /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
+				61219A8F21C1543F007BA795 /* Data */,
 				61219A5421C14BBE007BA795 /* Timer */,
 				61219A4D21C14B74007BA795 /* String+Extension */,
 				61219A4A21C14AC2007BA795 /* NSAttributedString */,
@@ -447,6 +450,14 @@
 			path = "UIViewController+UIBarButtonItem";
 			sourceTree = "<group>";
 		};
+		61219A8F21C1543F007BA795 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				61219A9021C15455007BA795 /* Data+APNSToken.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -525,6 +536,7 @@
 				61219A8421C14E2F007BA795 /* UIView+Snapshot.swift in Sources */,
 				61219A4C21C14AC2007BA795 /* NSAttributedString+Extension.swift in Sources */,
 				61219A8621C14E2F007BA795 /* UIView+BlockGesture.swift in Sources */,
+				61219A9121C15455007BA795 /* Data+APNSToken.swift in Sources */,
 				61219A5E21C14C9C007BA795 /* UIColor+Extension.swift in Sources */,
 				61219A7321C14D82007BA795 /* UIScrollView+Extension.swift in Sources */,
 				61219A2121C14733007BA795 /* ViewController.swift in Sources */,
